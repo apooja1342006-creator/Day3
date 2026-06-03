@@ -1,0 +1,20 @@
+  import java.util.Scanner;
+
+public class problem9 {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int seats = 5;
+
+        while(seats > 0) {
+
+            System.out.println("Seat Booked");
+            seats--;
+
+            System.out.println("Remaining Seats = " + seats);
+        }
+
+        System.out.println("Booking Closed");
+    }
+}
